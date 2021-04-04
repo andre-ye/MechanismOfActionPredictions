@@ -1,5 +1,5 @@
 # MechanismOfActionPredictions
-The notebooks from the Kaggle competition Mechanisms of Action (MoA) Prediction. The notebook TabNet+ANN|0.01612LB was my best submission, scoring a top 4% in the leaderboard. A brief overview of my solution:
+The notebooks from the Kaggle competition Mechanisms of Action (MoA) Prediction from Andy and Andre. The notebook TabNet+ANN|0.01612LB was our best submission, scoring a top 4% in the leaderboard. A brief overview of our solution:
 
 ## Preprocessing/Feature Engineering
 
@@ -13,7 +13,7 @@ The notebooks from the Kaggle competition Mechanisms of Action (MoA) Prediction.
   
 ## Models and Training
   
-  - I trained two TabNet on different seeds and one two layer Neural Network, then blended the predictions with weighted average.
+  - We trained two TabNets on different seeds and one two layer Neural Network, then blended the predictions with weighted average.
   - Optimizers: TabNet, AdaBelief. NN, AdamW.
   - LrScheduler: ReduceLROnPlateau
   - Validation Scheme: MultiStratifiedKFold
